@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" integrity="sha256-BoISUaKecfj9T2A0lmfFTRY7Fte8ix1HFEx/UEJoPu8=" crossorigin="anonymous"></script> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous" /> 
+  <link rel="stylesheet" href="style.css">
+  <title>Masáže Vracov - Jana Rajsiglová</title>
+</head>
+
+<body>
+  
+  <!-- Navigace -->
+  <nav class="navbar level is-size-5" role="navigation" aria-label="main navigation">
+  
+    <div class="level-left">
+      <p class="level-item">Masáže Jana Rajsiglová</p>
+    </div>
+    <div class="level-right">
+      <a href="#nabidka"><p class="level-item has-text-black">Nabídka</p></a>
+      <a href="#kontakt"><p class="level-item has-text-black">Kontakt</p></a>
+      <a href="cenik.pdf"><p class="level-item has-text-black">Ceník</p></a>
+    </div>
+  </nav>
+
+  <div class='container'>
+    <img class='logo' src="img/back2.svg">
+    <div class="columns is-centered">
+      <div class="column is-12 is-offset-4">
+          <a href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA"><button class="btn btn--stripe"><span><i class="fab fa-facebook" style='color:3B5998;'></i></span> Facebook</button></a>
+          <a href="tel:731-731-721"><button class="btn btn--stripe"><span><i class="fas fa-phone" style='color:#47d147;'></i></span> +(420) 731 731 721</button></a>
+          <a href="mailto:masaze.janara@centrum.cz"><button class="btn btn--stripe"><span><i class="fas fa-envelope"style='color:#d64f43;'></i></span>  masaze.janara@centrum.cz</button></a>
+      </div>
+    </div>
+      
+    
+    
+    
+      
+  <!-- Slides -->
+  <div class="column is-10 is-offset-1">
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+    <!-- Full-width images with number -->
+    <div class="mySlides fade">
+        <img class='carousel' src="img/slide1.jpg" style="width:100%">
+    </div>
+    <div class="mySlides fade">
+        <img class='carousel' src="img/slide2.jpg" style="width:100%;">
+    </div>
+    <div class="mySlides fade">
+        <img class='carousel' src="img/slide3.jpg" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div> 
+
+  <!-- Info -->
+  <div class="column is-10 is-offset-1 info">
+    <p> Jmenuji se Jana Rajsiglová a poskytuji masérské, rekondiční a regenerační služby. Masážní salon provozuji s cílem ulevit klientům nejen od fyzických bolestí, ale i od psychických problémů, které jsou s tím spjaty. Tělu i duši uleví i jediná masáž. Při pravidelné péči pocítíte přiliv energie a chuť do života. O jednotlivých masážích v nabídce se více dozvíte níže.</p>
+  </div>
+  <br>
+
+  <!-- Infopart expanding grid -->
+  <div class="expanding-grid">
+    <ul id='nabidka' class="links">
+      <li>
+        <a href="#section1">
+          <img class="lazyload" data-src="img/dorn1.jpg">
+          <p class='grid-title'>Dornova metoda</p>
+          <br>
+          <p class='card-summary'>Navrácení kloubů a obratlí pohybem do správné polohy.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section2">
+          <img class="lazyload" data-src="img/breuss.jpg">
+          <p class='grid-title'>Breussova masáž</p>
+          <br>
+          <p class='card-summary'>Jemná péče pro uvolnění svalů v oblasti páteře za pomocí třezalkového olejíčku.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section3">
+          <img class="lazyload" data-src="img/bank.jpg">
+          <p class='grid-title'>Baňkování</p>
+          <br>
+          <p class='card-summary'>Podpora krevního oběhu v problematických oblastech.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section4">
+          <img class="lazyload" data-src="img/lymf.jpg">
+          <p class='grid-title'>Lymfodrenáž</p>
+          <br>
+          <p class='card-summary'>Jemná masážní technika odstraňující škodliviny z těla.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section5">
+          <img class="lazyload" data-src="img/kine.jpg">
+          <p class='grid-title'>Kineziotaping</p>
+          <br>
+          <p class='card-summary'>Speciální lepící páska pro uvolnění a aktivní léčení svalů.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section6">
+          <img class="lazyload" data-src="img/lymt.jpg">
+          <p class='grid-title'>Lymfotaping.</p>
+          <br>
+          <p class='card-summary'>Lepení pružných pásek na podporu lymfatického systému.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section7">
+            <img class="lazyload" data-src="img/celu.jpg">
+            <p class='grid-title'>Masáž proti celulitidě</p>
+            <br>
+            <p class='card-summary'>Odstranění příznaků celulitidy pomocí ozónového zábalu.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section8">
+          <img class="lazyload" data-src="img/indi.jpg">
+          <p class='grid-title'>Indická masáž hlavy</p>
+          <br>
+          <p class='card-summary'>Léčivé ošetření hlavy odstraňující každodenní stres, bolesti hlavy, napětí v ramenou a šíji.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section9">
+          <img class="lazyload" data-src="img/lava.jpg">
+          <p class='grid-title'>Masáž lávovými kameny</p>
+          <br>
+          <p class='card-summary'>Přikládání horkých kamenů pro celkovou relaxaci a regeneraci organismu.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section10">
+          <img class="lazyload" data-src="img/trig.jpg">
+          <p class='grid-title'>Trigger points</p>
+          <br>
+          <p class='card-summary'>Spouštěcí body - uvolnění bolestivých míst ve svalech.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section11">
+          <img class="lazyload" data-src="img/dark.jpg">
+          <p class='grid-title'>Dárkové poukazy</p>
+          <br>
+          <p class='card-summary'>Potěšte své blízké příjemným zážitkem.</p>
+        </a>
+      </li>
+      <li>
+        <a href="#section12">
+          <img class="lazyload" data-src="img/lymf2.jpg">
+          <br>
+          <p class='grid-title'>Etický kodex a <br>kontraindikace</p>
+        </a>
+      </li>
+    </ul>
+  
+    <div id="section1" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Dornova metoda</h1>
+        <p>Jednoduchý manuální způsob, jak zasáhnout při akutních problémech nebo dlouhodobých bolestech v zádech a kloubech. Metoda umožňuje nápravu obratlů a kloubů jemnou manuální terapií, kdy za aktivní účasti pacienta jsou přirozeně volným pohybem usazeny do správné polohy. 
+        <br><br>
+        Dornovou metodou se uvolňují fyzické i psychické bloky a lze ji proto považovat za postup, jímž se léčí příčiny. Je-li příčina odstraněna, mizí i příznaky. Je nutné zde ale připomenout, že aktivní spolupráce pacienta je základním předpokladem úspěchu. Dornova metoda se dá vhodně kombinovat s Breussovou masáží , zvláště při problémech se zády. Lidské tělo je jako dům. Pokud má dům špatně postavené základy, hroutí se celý. Analogicky musí mít i lidské tělo správně posazené kosti a klouby ke středu těla, aby mohlo dobře fungovat a nic mu nebránilo v pohybu. Z tohoto stanoviska vychází Dornova metoda, která dbá jako první na správné posazení kyčelních kloubů v kloubních jamkách. 
+        <br><br>
+        Masér nejprve poměří délku dolních končetin. Pokud je jedna noha kratší, znamená to špatné posazení kyčelního kloubu, způsobené většinou nesprávným sezením s překříženými nohami, porodem nebo otřesy při jízdě v dopravních prostředcích. Kratší noha se jemně povytáhne, čímž se hlava kyčelního kloubu správně usadí do pouzdra.
+        Naopak zkracování delší nohy provést nelze. Po vyrovnání nohou jsou "základy domu" opět v pořádku a lze pokračovat dalšími, drobnějšími defekty. 
+        <br><br>
+        Problémy způsobené špatným držením těla se odrážejí na páteři – vzniká skolióza a různě vybočené obratle. Vše je spojeno s nepříjemnými bolestmi zad a hlavy. Také proto je Dornova metoda doporučována lidem trpícím migrénou. Masér působí na krční obratle a klient s ním aktivně spolupracuje. Správným natočením hlavy a tlakem na postižené místo se obratle lépe navrací na své původní místo.
+        <br><br>
+        Problémy se zády mají často svou příčinu v ochablém zádovém svalstvu. Touto metodou se odstraňuje příčina problému, který by se, při lepším způsobu držení těla a posilování svalstva, neměl vracet. Pravidelným procvičováním zádových partií se posilují svaly podél páteře, svalstvo pak tvoří jakýsi korzet, který nedovoluje vychylování obratlů. Odstranění problémů Dornovou metodou a následné posilování alespoň dvacet minut denně je tedy dlouhodobým řešením problémů se zády.</p>
+        <br><br>
+        <div class="columns">
+          <div class="column">
+              <img class="lazyload" data-src="img/dorn1.jpg">
+              <img class="lazyload" data-src="img/dorn4.jpg">
+          </div>
+          <div class="column">
+              <img class="lazyload" data-src="img/dorn2.jpg">
+              <img class="lazyload" data-src="img/dorn5.jpg">
+          </div>
+          <div class="column">
+              <img class="lazyload" data-src="img/dorn3.jpg">
+              <img class="lazyload" data-src="img/dorn6.jpg">
+          </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section2" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Breussova masáž</h1>
+        <p>Breussova masáž "meziobratlových plotének" se dá velmi dobře kombinovat s Dornovou metodou. Mnohé problémy páteře, jako jsou bolesti meziobratlových plotének, ústřel atd. se mohou spojením těchto dvou metod zcela lehce, bez rizika a s dobrou prognózou vyléčit. Breussova masáž regeneruje meziobratlové ploténky, čímž vyřeší široké spektrum zdravotních potíží a mimo jiné vede k odbourávání hluboko uložených psychických problémů.
+        <br><br>
+        Postup Breussovy metody spočívá v intenzivním vtírání masážního oleje po celé délce páteře. Důraz je při tom kladen na postižená, bolavá místa. Působením oleje meziobratlové ploténky "nabobtnávají" a obratle se pak lépe vyrovnávají do správné polohy. Masáží a působením oleje dochází k lepšímu okysličení tkáně obratlů, odplavování škodlivin krví a stimulaci nervových vláken, vedoucích z páteře. Celá páteř se snadněji regeneruje a hybnost organismu se rozšiřuje. Masáž je velmi jemná a tak nejsou známy žádné kontradikce.
+        <br><br>
+        Problémy se zády a páteří vznikají jednostranně zaměřenou činnosti, nesprávným držením těla a vrozenými deformacemi (srostlé ploténky). Lidská páteř má přirozeně dvojesovité zakřivení. Nepřiměřené prohnutí v bederní nebo hrudní části ale není žádoucí. Lidé trpící problémy se zády jsou různě omezování ve všedním životě i ve sportovních aktivitách, které jsou prevencí problémů s pohybovým aparátem. Pokud tedy zdravotní stav nedovolí jinak, problémy se zády lze řešit jedině pravidelnou masáží. Vyrovnáním páteře a částečným odstraněním svalových disbalancí dochází automaticky k lepšímu držení těla, které má zásadní dopad na celkový vzhled. Breussova masáž však není jen mechanickým procesem vyrovnání páteře, ale i účinným zdrojem energie.</p>
+        <br><br>
+            <div class="columns">
+                <div class="column">
+                    <img class="lazyload" data-src="img/breu1.jpg" onclick="">
+                </div>
+                <div class="column">
+                    <img class="lazyload" data-src="img/breu3.jpg" onclick="">
+                </div>
+                <div class="column">
+                    <img class="lazyload" data-src="img/breu2.jpg" onclick="">
+                </div>
+            </div>
+      </article>
+    </div>
+  
+    <div id="section3" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Baňkování</h1>
+        <p>Baňkování je metoda, která se úspěšně užívá už od starověku. Jde o jednoduchou metodu, která ulevuje od bolesti a pomáhá zmírnit celou řadu onemocnění pohybového aparátu, uvolňuje svalové spasmy, odstraňuje blokády, pomáhá při léčbě cukrovky, migrény, vysokého tlaku, zažívacích problémů a má velký význam pro detoxikaci organismu. 
+        <br><br>
+        Baňky jsou skleněné, plastové nebo silikonové nádoby, které se díky podtlaku přisají na tělo.Přiložením baněk kůže zčervená – místo se silněji prokrví. Baňky se nechávají přiloženy po určitou dobu a je možné s nimi i masírovat, ale až po vydatném natření masážní emulzí, či aromatickým olejem. Přisátou baňkou se jezdí krouživými pohyby svisle po páteři, a tak dochází k výraznému prokrvení.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/bank1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/bank3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/bank2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section4" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Lymfodrenáž</h1>
+        <p>Je zcela odlišná od klasických rekondičních či sportovních masáží. Nerozmasírovává se, netlačí, pohyby jsou velmi pomalé, krouživé a jemné, avšak velmi účinné.
+        <br><br>
+        Jde o zdraví velmi prospěšnou jemnou masáž lymfatických cest, která napomáhá odtoku přebytečné vody (otoky) a toxických látek z těla. Dochází k uvolnění a urychlení toku lymfy. Tato tělesná tekutina má tu schopnost, že odvádí z těla škodliviny, které do sebe neustále vstřebáváme ze špatného životního prostředí, nezdravých potravin, léků, alkoholu... Pokud se lymfa hromadí v organismu, dochází k postupnému zanášení těla zplodinami metabolismu a toxických látek, které se podílejí na nerovnoměrném rozložení tuku a vody. Dochází k narušení spojovacích vláken mezi svaly a kůží, což způsobuje ochabnutí kůže v elastické tkání. Pokud lymfatický systém nefunguje, snižuje se obranyschopnost organismu. Zanesené lymfatické dráhy se projevují například celkovou tělesnou únavou, pocity vyčerpanosti, únavou nohou, otoky... Lymfatická masáž podporuje detoxikaci, zvyšuje imunitu a pomáhá proti otokům nebo chronické únavě.
+        <br><br>
+        Čištění lymfy je důležité, abychom dosáhli zvýšení obranného systému a tím podpořili regeneraci organismu, předešli a postupně odstraňovali časté angíny, chřipky, záněty, akné, pozvedli imunitu. Lymfatické masáže pozitivně působí i při rehabilitaci sportovců (svalové vyčerpání, zvýšené napětí po sportovních výkonech).
+        V medicíně se využívá například pro rychlejší hojení a odstranění otoků po operacích - veškeré poúrazové stavy, pooperační stavy. Lymfatická masáž zlepšuje odtok produktů metabolismu v oblasti pooperační rány a podporuje hojení = uvolňuje tkaňové napětí a tím pádem zbavuje pocitu bolesti. Pozitivně působí i při nedostatečnosti žilního systému = jako prevence křečových žil. Dochází k posunu neokysličené krve v krevním řečišti. Krev se rychleji okysličuje. Proto je tento typ masáže nejšetrnější pro lidi, kteří trpí křečovými žilami. Upraví se metabolismus. Klienti se odvodní a mohou i zhubnout. Organismus se harmonizuje. Zlepší se elasticita a vzhled pokožky. Uplatnění najde tato masáž také v boji s celulitidou. Kromě zdravotních vlivů mají lymfatické masáže také značné relaxační účinky, které jsou v dnešní hektické době plné stresů velmi důležité a ocení je každý moderní člověk. V každém případě je lymfatická masáž určitým zásahem do organismu a proto má její provádění určitá omezení. Nelze ji dělat při virovém nebo akutním onemocnění a zejména ne při nádorových onemocněních.
+        <br><br>
+        Správná funkce lymfatického systému hraje klíčovou roli ve správné funkci systému imunitního. Preventivní lymfatická masáž celého těla v tomto případě spočívá v jemné masáži všech klíčových bodů lymfatického systému. Tím je zabráněno například hromadění odpadních látek, buněčných zbytků nebo infekčních agen v lymfatickém systému. Organismus je tak lépe pročišťován. Jedná se tedy o jednu z možností jak nefarmakologicky posílit obranyschopnost vlastního těla.
+        Jedna lymfatická masáž na detoxikaci organismu nestačí. Jako prevenci i ke zmírnění zdravotních potíží doporučuji kůru deseti ošetření s pravidelnou návštěvností minimálně 1x týdně! Efekt zpevnění a zmenšení otoků, způsobený dokonalejším odtokem přebytečné lymfy, se objeví po 3 - 4 lymfatických masážích. Ale to je velmi individuální. Hodně záleží na přístupu k vlastnímu tělu a zdraví, taktéž na věku a tělesné hmotnosti.
+        <br><br>
+        Když klient nebude pít, alespoň po dobu absolvování lymfatických masáží, nemají masáže takový účinek a smysl a zbytečně si klient masáže platí. Samozřejmě také pohyb a strava, ale pitný režim je nejdůležitější. Zkuste si představit, že myjete špinavé nádobí jarem, ale už ho neopláchnete vodou. Totéž se děje ve Vašem těle, pokud nepijete, škodliviny zůstávají, nemohou se přefiltrovat(vyčistit), protože lymfa nemá tekutinu, která by je dopravovala do uzlin, kde se čistí. Škodliviny se tak usazují, působí potíže a Vy se divíte, proč jste tak unaveni, bez nálady, proč jste často nemocní, že Vám otékají nohy apod. Co se týče pohybu, nejlepším pohybem pro lymfu(ale i pro celé tělo) je jednoznačně CHŮZE. Nejobyčejnější a nejgeniálnější pohyb, který Vás nic nestojí. Lymfu totiž rozhýbává lýtkový sval na noze a navíc při chůzi správně dýcháte, což je pro lymfu také důležité.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/lymf1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lymf3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lymf2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section5" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Kineziotaping</h1>
+        <p>Jedná se o regenerační a léčebnou terapii, při které jsou na kůži nalepovány elastické pásky (tzv. tejpy, kineziotejpy) Pásky zajistí na místě zpravidla svalového „problému“, zvyšení krevního oběhu a průtoku lymfy. Zároveň dochází k dráždění receptorů, umístěných na pokožce, které přinášejí po aplikování tejpu, téměř okamžitou úlevu (mozek zajistí odeslání potřebné „chemie“, která bolest uvolní a zajistí nástup ozdravného procesu).
+        <br><br>
+        Nalepením eleastického tejpu s pružností odpovídající lidské pokožce jsou na kůži vytvořeny vlnky, které stále nadzvedávají pokožku. Do místa pod tejpem proudí zvýšený trvalý tok krve a lymfy a to 24 hodin každý den. Úlevu v postižené oblasti můžete pocítít téměř ihned po nalepení tejpu nebo až v průběhu několika hodin , případně následující den. Může však také dojít ke krátkodobému zvýšení bolestivosti zatejpované oblasti, které by mělo brzy odeznít. Kineziotaping neomezuje pohyb, s kineziotejpem se nemusíte nijak zvlášť omezovat – můžete i nadále nerušeně sportovat, pracovat, můžete se mýt (horké koupele se nedoporučují kvůli možnému odlepování tejpu), můžete jet na dovolenou, koupat se v bazénu…..
+        <br><br>
+        Tejp pracuje 24 hodin denně za Vás - uzdravuje Vás !!!, a proto se snažte o co nejdelší ponechání na těle , po umytí opatrně otírejte - pásku zbytečně nedřete ručníkem. </p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/kino1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/kino3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/kino2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section6" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Lymfotaping</h1>
+        <p>
+        LYMFOTAPING je speciální technika kineziotapingu. Jedná se o nalepování pružných pásek (tejpů) v souladu s průběhem lymfatického systému a s dodrženými zásadami lymfodrenáže. Dochází k prodloužení účinku lymfodrenáže (pokud předcházela) nebo k samostatné aktivitě (v případě, že lymfodrenáž nepředcházela).
+        <br><br>
+        LYMFOTAPING zamezuje opakované tvorbě lymfedémů. Pásky (tejpy) zajišťují zvýšený průtok lymfy, která odvádí toxiny z povrchových tkání. LYMFOTAPING  se odvíjí od techniky kineziotapingu tzn. nalepují se na tělo pružné pásky – tzv. tapy (tejpy), které v žádném případě negativně neomezují krevní oběh ani oběh lymfatický. Tejpy jsou z jedné strany vytvořeny na bavlněné bázi, ze strany druhé je umístěn drážkový povrch, který obsahuje drážku s lepidlem a drážku bez lepidla. Svou pružností, přilnavostí a celkovou charakteristikou  odpovídají povaze lidské kůže. Po aplikování se tak tejp stává 24 hodinovou součástí kůže. Na pokožce tejp vytváří  povrchové vlnky, které nadzvedávají povrch pokožky a tím uvolňují krevní oběh a podporují směrově tok lymfy. Při činnosti svalstva  a tím i tejpu dochází k opakované tvorbě vlnek = jemná pumpa, která neustále podporuje drenování lymfy.
+        </p>
+        <br><br>
+        <ol type="I">Kdy využít LYMFOTAPING?
+            <br><br>
+            <li>prodloužení účinku lymfodrenáže </li>
+            <li>dlouhodobá podpora lymfatického systému</li>
+            <li>odstranění otoků</li>
+            <li>urychlení regenerace po úrazech, po operacích (např. doléčení distorze hlezna, kolene onemocnění úponů šlach, jakákoliv namožení spojená s otokem i bez otoku, otoky rukou např. po ablaci prsu…)</li>
+            <li>podpora rehabilitačních technik</li>
+            <li>odstranění křečovitých stavů</li>
+            <li>při bolestech velkých kloubů</li>
+        </ol>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/lymt1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lymt3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lymt2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section7" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Masáž proti celulitidě</h1>
+        <p>Masáž proti celulitidě a formování postavy je jednou z nejžádanějších odborných masáží. Kombinuje speciální ruční tlakovou masáž a ozónový zábal. Masážními hmaty a ozónem se uvolní tukové buňky, zlepší se podkožní metabolismus, krevní oběh a zrychlí se odtok toxických látek z těla.
+        <br><br>
+        Tento postup má výborné výsledky nejen v samotném vyhlazení celulitidy, ale také ve formování postavy, ve zlepšení kvality pokožky, v povzbuzení lymfatického systému a v odstranění únavy nohou.
+        <br><br>
+        Celulitida je vlastně chytré ochranné opatření. Pokud je v našem těle příliš mnoho toxinů, které by mohly kolovat v organismu a poškozovat jej, tělo je přemění na tuk. Podkožní tukové buňky se pak spojují do větších celků, které tlačí proti pokožce, zhoršují její prokrvení a poškozují vazivo. Buňky tak sílí, tuhnou a vzniká tzv. pomerančová kůže čili celulitida. Ta bývá nejvýraznější na bocích, stehnech, zadečku či bříšku.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/celu1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/celu3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/celu2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section8" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Indická masáž</h1>
+        <p>Indická masáž hlavy je jemné, léčivé ošetření hlavy, krku, ramen a horní části paží. Provádí se v sedě, přes oblečení. Začíná se od šíje a krku, pokračuje se na hlavu, kde masér postupuje po určitých bodech na hlavě.
+        <br><br>
+        Napjaté krční svaly jsou častou příčinou bolestí hlavy, postupně dochází k bolesti zad, tlačení v očích, neostrému vidění, migréně. Na hlavě je mnoho nervových zakončení, proto je masáž hlavy vnímána jako báječný a slastný zážitek, lék na bolesti hlavy, očí a napětí ve svalech krku a ramen. Navodí maximální relaxaci a uvolnění. Dospělí se při indické masáži uvolní od vysokého tempa stresu. Zbaví se fyzického i psychického napětí, nervozity, pocitu vyčerpanosti, úzkosti, deprese a tísně. Ustoupí bolesti hlavy, odstraní se ztuhlost šíje, ramen a krku, zmizí únava očí, zlepší se spánek, koncentrace a duševní svěžest. Nervový a imunitní systém je odolnější, lépe pracuje oběhový, dýchací i lymfatický systém. Při pravidelné aplikaci se výrazně vylepší kvalita, hustota a celkový vzhled vlasů, protože masáž prokrvuje pokožku hlavy a vyživuje vlasové kořínky.
+        <br><br>
+        Dětem tato technika zprostředkovává uklidnění, relaxaci a pocit léčivého dotyku od druhé osoby. Je vhodná pro děti neklidné, hyperaktivní, s psychickými problémy, nesoustředěné, s poruchami učení, spánku. Masáž je pro ně prospěšná nejen ze zdravotních důvodů, ale především z důvodů psychických. Pro seniory je indická masáž hlavy blahodárná a oblíbená nejen pro výše uvedené zdravotní účinky, ale také proto, že se masáží jemně a šetrně spouští ozdravný a regenerační proces. Starší lidé jsou většinou také více ostýchaví a zvyklí na svou osobní intimitu, proto velmi vítají, že můžou při této proceduře zůstat oblečení. Také pozice vsedě je pro většinu starších lidí výhodnější vzhledem k možným zdravotním problémům s pohyblivostí či s tlakem.
+        Je zázračným lékem na fyzické i psychické problémy lidí všech věkových kategorií, je to technika, která představuje spojení starověké kulturní tradice s požadavky moderního způsobu života.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/indi1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/indi3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/indi2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+    
+    <div id="section9" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Masáž lávovými kameny</h1>
+        <p>Masáž lávovými kameny představuje výbornou relaxaci. Teplo kamenů, které mají 40° - 60°, dosáhne až 3 cm hluboko pod kůži, kde ovlivňuje fyziologické procesy, uvolňuje, odstraňuje nervozitu a stres, nespavost a další problémy, které souvisejí se stresem zatíženou psychikou.
+        <br><br>
+        Masáž teplými lávovými kameny dokáže uvolňovat ztuhlé svaly, blokády a křeče a uleví vám také od bolesti v kloubech. Navíc reguluje trávení a zrychluje metabolismus. Odplavuje škodlivé látky z tkání, napomáhá ke správné funkci lymfatického systému, jater i ledvin. Díky tomu působí blahodárně i proti celulitidě a zvláčňuje pokožku. Příjemné účinky a pocit uvolnění přetrvají až několik dní. Kameny se přikládají na záda a šíji, případně také na nohy.
+        <br><br>
+        Masáž lávovými kameny tělo nejprve postupně prohřeje. Následně hluboce uvolní a harmonizuje organismus a odblokuje lymfatický tok, čímž dochází k detoxikaci organismu. Lávové kameny výborně akumulují teplo, které tkáň prohřívá hluboko pod kůží, čímž výrazně napomáhá regeneraci. Masáž lávovými kameny vyrovnává energii v těle a tím napomáhá hluboké relaxaci organismu. V důsledku zmírňuje psychické napětí a související zdravotní obtíže, ulevuje od svalových a kloubních bolestí a pomáhá tělu přirozeně se vyrovnat se zvýšenými fyzickými i psychickými nároky, které na něj klademe. Po ukončení masáže je dobré zůstat ještě několik minut v klidu na lehátku, aby odezněla mírná malátnost. Bezprostředně po masáži se nedoporučuje fyzická námaha, řízení auta a další psychicky a fyzicky náročné činnosti. Důležitý je také dostatečný přísun tekutin.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/lava1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lava3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/lava2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section10" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Trigger points</h1>
+        <p>Spoušťové body (Trigger pointy) jsou malé tuhé uzlíky ve svalech, které mohou být na pohmat silně bolestivé nebo mohou při podráždění vyvolat svalový zášk a bolest ve vzdálených oblastech těla (přenesená bolest). Další reakcí na podráždění je úhybná reakce, kdy pacient může až poskočit nebo ucuknout.
+        <br><br>
+        Díky mechanickému poškození kosterního svalstva, ať již úrazem, zlomeninou, vymknutím nebo nadužíváním – kdy daný sval stále dokola vykonává stejnou práci stejným způsobem – může dojít k ztuhnutí svaloviny a vytvoření tzv. spoušťového bodu (např. práce s myší, jednostranná zátěž sportovců, ovládání pedálů při řízení automobilu atd.) Sval ztrácí elasticitu a poddajnost, postupem času může dojít ke zhoršení jeho prokrvení. Právě spoušťový bod může být zdrojem vytrvalé, hluboké a velmi obtěžující bolesti. Tyto změny potom vedou k tomu, že se body stávají centry bolesti a mohou ovlivnit celkovou kondici svalu, ve kterém se nacházejí , ale také svalů mnohdy i velmi vzdálených.  Změny spojené s poruchou funkce svalu vedou k rozvoji tzv. přenesených bolestí. Přenesené bolesti se mohou vyskytovat mnohdy i velice daleko od místa výskytu spoušťového bodu. 
+        <br> <br>                   
+        Ztuhlost a bolest v kloubech jako zápěstí, lokty, ramena, kolena a kyčle často nebývá nic jiného než přenesená bolest ze spoušťových bodů přiléhajících svalů. 
+        Spoušťové body nereagují na meditaci, pozitivní myšlení, progresivní relaxaci a jen velmi omezeně např. na klasickou masáž. Jediným dostupným ošetřením těchto bodů je manuální tlak přímo na tento bod – a protažení svalu. Je přitom velice důležité nenechat se zmást, kde se zrovna bolest projevuje. Takovýmto ošetřením je možné docílit zmírnění či odstranění urputných bolestí hlavy, šíje, bolestí v ramenním kloubu, bolestí jakoby vystřelující z ramene do paže, či bolesti v kyčlích. Bodavá bolest mezi lopatkami jsou opět jen malým příkladem, který může prezentovat přetížení svalů z nevhodného přetěžování při práci s myší a klávesnicí.</p>
+        <br><br>
+        <div class="columns">
+            <div class="column">
+                <img class="lazyload" data-src="img/trig1.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/trig3.jpg" onclick="">
+            </div>
+            <div class="column">
+                <img class="lazyload" data-src="img/trig2.jpg" onclick="">
+            </div>
+        </div>
+      </article>
+    </div>
+  
+    <div id="section11" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Dárkové poukazy</h1>
+        <p> Platnost poukazu je 12 měsíců od jeho zakoupení. V případě, že se majitel poukazu nedostaví na objednanou masáž  a neomluví se, poukaz propadá!</p>
+        <br><br>
+      </article>
+    </div>
+  
+    <div id="section12" class="expanding-container">
+      <article class="hentry">
+        <h1 class="entry-title">Etický kodex maséra</h1>
+        <p>
+            Jako masér se v rámci poskytování masérských, rekondičních a regeneračních služeb zavazuji dodržovat následující body kodexu, který vychází z Etického kodexu zdravotnického pracovníka nelékařských oborů i z mých vlastních zásad, pravidel a zkušeností.
+        </p>
+        <br>
+        <p>Obecné pojetí profese maséra</p>
+        <br>
+        <ol>
+            <li>V žádném případě nesmí klientovi sdělovat negativní zjištění ani vlastní předpoklady, musí mu však doporučit návštěvu lékaře, pokládá-li to za nezbytné a vyžaduje-li to jeho zdravotní stav.</li>
+            <li>V žádném případě nesmí zakazovat užívání léků, které byly klientovi předepsány lékařem, ani doporučovat jiné medikamenty.</li>
+            <li> Nesmí své schopnosti stavět nad znalosti lékařů. </li>
+            <li>Terapie je v závažných případech pouze doplňkovou péčí k odborné léčbě a doporučuje se spolupráce s lékařem klienta.</li>
+            <li>V rozsahu své odbornosti a pravomocí poskytuje klientovi informace, které mu pomáhají převzít spoluzodpovědnost za jeho zdravotní stav a případnou léčbu.</li>
+            <li>Snaží se při poskytování péče docílit vztahu založeného na důvěře, který ctí práva klienta, přičemž této důvěry nesmí jakkoli zneužít.</li>
+            <li>Dbá na udržování a zvyšování prestiže své profese, je odpovědný za kvalitu jím poskytované péče a za co nejvyšší odbornou úroveň svého vzdělávání.</li>
+            <li>Rozvíjí své profesní zaměření a rozšiřuje odbornou kvalifikaci.</li>
+            <li>Dodržuje veškeré zákony a hygienické požadavky, vztahující se k jeho profesi.</li>
+            <li>Provádí pouze ty služby, pro které je kvalifikován příslušnými kurzy a certifikacemi. Nesmí provádět výkony, na které není proškolen, certifikován, či jinak odborně připraven.•      Fyzioterapeut masér - nižší zdravotnický pracovník - je povinen přistupovat ke své práci s veškerými odbornými schopnostmi, jimiž je vybaven, s vědomím profesionální odpovědnosti za podporu zdraví, prevenci nemocí, případně za obnovu zdraví a zmírňování bolesti.</li>
+        </ol>
+            <br>
+            <p>Zásady péče o sebe:</p>
+            <br>
+        <ol>
+            <li>Práci maséra chápu nejen jako povolání, ale i jako své životní poslání.</li>
+            <li>Plně si uvědomuji morální a etický dopad svých slov, myšlenek a činů na klienta.</li>
+            <li>Dbám aktivně o vyvážený rozvoj tělesné i duševní úrovně své osobnosti.</li>
+            <li>Pečuji o svůj vzhled – upravený zevnějšek a čistotu.</li>
+            <li>Uvědomuji si své profesní i etické hranice ve vztahu ke klientovi a za žádných okolností je nepřekračuji.</li>
+            <li>Nepřeceňuji ani nepodceňuji své schopnosti.</li>
+        </ol>
+        <br>
+        <p>Zásady práce s klientem:</p>
+        <br>
+        <ol>
+            <li>Umožňuji klientovi předem se informovat o cenách a podmínkách, za kterých poskytuji své služby.</li>
+            <li>Na každé setkání přicházím dostatečně připraven, odpočat a příznivě naladěn.</li>
+            <li>Necítím-li se z jakýchkoli důvodů být schopen masírovat, dostatečně včas se zákazníkovi omluvím a po společné dohodě stanovíme náhradní termín setkání.</li>
+            <li>Před zahájením masérského výkonu zjistím dotazováním zdravotní stav klienta a podle toho posoudím postup a vhodnost prováděné terapie.</li>
+            <li>Vždy jednám promyšleně a používám výhradně takové postupy, jejichž dopad na stav klienta je mi znám. Své postupy přizpůsobuji momentálnímu zdravotnímu stavu a duševnímu rozpoložení zákazníka.</li>
+            <li>Po celou dobu setkání věnuji klientovi plnou pozornost a vnímám vše, co by mohlo posloužit ke zlepšení jeho zdravotního stavu a k celkové úlevě. Respektuji jeho přání zvolit si masážní techniku, pokud tato není v rozporu s jeho zdravotním stavem.</li>
+            <li>V průběhu masáže respektuji právo klienta na odpočinek a celkové uvolnění. Udržuji s ním bezprostřední kontakt a veškeré pomůcky si připravuji tak, abych se od něj nemusel příliš vzdalovat.
+            </li>
+            <li>Dbám o vytvoření příjemné a bezpečné atmosféry. Ctím soukromí klienta, obsah a průběh setkání zůstává pro ostatní tajemstvím</li>
+            <li>Hovořím dostatečně nahlas, plynule a klidně, nepřikazuji, pouze nabízím, navrhuji nebo doporučuji. U klienta velmi oceňuji zpětnou vazbu a v průběhu masáže se aktivně dotazuji na jeho požadavky a pocity, jimž se snažím v rámci kodexu prováděnou masážní techniku přizpůsobit.</li>
+            <li>Svým jednáním a chováním dbám o vlastní důstojnost, společenskou etiketu a obecnou morálku. V práci s klientem upřednostňuji prvky trpělivosti, vnitřního klidu a nezaujatosti. Ke klientovi se vždy chovám korektně a za všech okolností zachovávám profesionální odstup.</li>
+            <li>Pro klienta jsem především masérem a terapeutem, snažím se mu pomáhat a prospívat v rámci svých odborných schopností a profesních možností.</li>
+            <li>Mám na paměti, že klient ke mně přichází hledat pomoc, proto se mi odevzdává do péče a svěřuje mi své problémy a pocity.</li>
+            <li>Pokud mi klient sděluje intimní problémy z osobního života, které nemají přímou souvislost s jeho zdravotním stavem, mohu je vyslechnout, projevit ke klientovi citlivý přístup, avšak v zájmu zachování profesionality nespadá do mých kompetencí se jimi zabývat, řešit je, ani je přenášet do svého soukromého života. Vyvaruji se pronášení osobních úsudků a zaujatých postojů, které by mohly masírovaného jakkoli ovlivnit. Pokud problém vyhodnotím jako závažný nebo vyžadující odbornou pomoc, mohu klienta odkázat na příslušného pracovníka pomáhajících profesí či na kvalifikovanou instituci.</li>
+            <li>Vyhrazuji si právo odmítnout přijetí klienta, který se na masáž dostaví pod vlivem alkoholu či jiných omamných a psychotropních látek, chová se agresivně, destruktivně nebo jinak nevhodně, vyžaduje služby odporující mým profesním, morálním či soukromým zásadám.</li>
+            <li>Pokud se nevhodné chování klienta projeví až během masáže, opakuje se nebo stupňuje, vyhrazuji si právo setkání předčasně ukončit a po klientovi požadovat úhradu za již provedené masážní úkony.</li>
+        </ol>
+        <hr>
+        <h1 class="entry-title">Kontraindikace masáží</h1>
+          <p>
+              Na této stránce najdete stručný přehled případů, kdy nejsou masáže doporučované. Pokud trpíte některou z vyjmenovyných chorob, vyčkejte s masáží až po odeznění nemoci.
+          </p>
+          <br>
+          <p>Kdy se masáž nedoporučuje - kontraindikace masáží:</p>
+          <br>
+          <ol>
+              <li>jakékoli onkologické problémy (nádorová onemocnění)</li>
+              <li>při kožních vyrážkách (plísně, vředy, nádory, bulky, hnisající ložiska, apod.)</li>
+              <li>všechny akutní stavy (horečka, záněty, virózy a jiné infekce, akutní blokády, apod.)</li>
+              <li>choroby srdce (infarkty, srdeční arytmie, vysoký krevní tlak, apod.) - je vhodné se poradit s lékařem</li>
+              <li>problémy se srážlivostí krve a kornatění tepen</li>
+              <li>záněty žil, zánětech svalů, kloubů (akutní revmatismus, artrózy, akutní dny, apod.)</li>
+              <li>velké varixy (křečové žíly) - pouze místní omezení v oblasti k.ž.</li>
+              <li>osteoporóza (podle stupně pokročilosti)</li>
+              <li>těžké stavy plicní a kostní tuberkulózy</li>
+              <li>opilost, požití psychotropních látek </li>
+              <li>zácpa a další zažívací potíže - je vhodné se poradit s lékařem</li>
+              <li>gravidita nebo menstruace</li>
+          </ol>
+          <br>
+          <p>Kdy se poradit před masáží s lékařem?</p>
+          <br>
+          <ol>
+              <li>choroby srdce (infarkty, srdeční arytmie, vysoký krevní tlak, apod.)</li>
+              <li>při cukrovce</li>
+              <li>při epilepsii</li>
+              <li>u chronických kožních chorob</li>
+              <li>u křečových žil</li>
+              <li>v těhotenství</li>
+          </ol>
+      </article>
+    </div>
+  </div>
+  <br>
+
+  <div class="column is-10 is-offset-1 more">
+    <p class='is-size-4'>Trápí Vás více problémů?</p>
+    <br>
+    <p> Klienti přichází s problémy, které nemusí zapadat do uvedené nabídky. Zde zvolíme řešení v podobě kombinovaných procedur. Po seznámení se s Vašimi potížemi sestavím masáž, která Vám nejlépe uleví od bolestí.</p>
+  </div>
+  <br>
+
+
+  <div class="columns" id='kontakt'>
+      <div class="column is-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.177866747604!2d17.20929645167434!3d48.969138479196864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713249d74f3ba13%3A0xa000c4fb47c44500!2zUMOtc2XEjW7DoSAxMDMyLCA2OTYgNDIgVnJhY292!5e0!3m2!1scs!2scz!4v1536594726670" width="100%" frameborder="0" allowfullscreen></iframe>            
+      </div>
+      <div class="column is-6 ">
+        <div class="column kontakt is-offset-1">
+          <p class="is-size-4 has-text-weight-semibold">Kontakt</p>
+          <hr>
+          <p>Jana Rajsiglová</p>
+          <p>Písečná 1032, Vracov</p>
+          <p>731 731 721</p>
+          <br>
+          <p>Provoz dle objednávek.</p>
+          <p>Vždy po předchozí telefonické domluvě.</p>
+          <br>
+          <p>Pokud nezvedám telefon</p>
+          <p>-- omlouvám se --</p>
+          <p>pracuji a nemohu hovořit. :)</p>
+        </div> 
+      </div>
+  </div>
+  <br>
+</div>
+
+<!-- Slideshow -->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1} 
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+      }
+      
+      slides[slideIndex-1].style.display = "block"; 
+    }
+  </script>
+  
+  <script>
+  /**
+ * jQuery Expanding Grid plugin.
+ *
+ * By Dan Boulet - https://danboulet.com
+ */
+(function ($, window, document) {
+
+// Enable strict mode
+"use strict";
+
+/**
+ * Return the last element in the current row of a grid layout.
+ */
+var getLastSiblingInRow = function (element) {
+	var candidate = element,
+			elementTop = element.offsetTop;
+
+	// Loop through the element’s next siblings and look for the first one which
+	// is positioned further down the page.
+	while (candidate.nextElementSibling !== null) {
+		if (candidate.nextElementSibling.offsetTop > elementTop) {
+			return candidate;
+		}
+		candidate = candidate.nextElementSibling;
+	}
+	return candidate;
+};
+
+/**
+ * Calculate the distance that we need to scroll the page to bring a
+ * section, defined as the area between the top and bottom, into view.
+ */
+var calculatePageScrollDistance = function (top, bottom) {
+	var windowScrollDistance = $(window).scrollTop(),
+			windowHeight = $(window).height(),
+			scrollDistanceToTop,
+			scrollDistanceToBottom;
+
+	// Scroll to the top of the section if the we are already scrolled past it.
+	if (windowScrollDistance >= top) {
+		return top - windowScrollDistance;
+	}
+	// Do nothing if there is enough space to show the section without having to scroll.
+	else if ((windowScrollDistance + windowHeight) >= bottom) {
+		return 0;
+	}
+	else {
+		// Find the maximum distance we can scroll without passing the top of the section.
+		scrollDistanceToTop = top - windowScrollDistance;
+		// Find the distance we need to scroll to reveal the entire section.
+		scrollDistanceToBottom = bottom - (windowScrollDistance + windowHeight);
+
+		return Math.min(scrollDistanceToTop, scrollDistanceToBottom);
+	}
+};
+
+/**
+ * Create the expanding preview grid.
+ */
+var expandingGrid = function (context, options) {
+	var defaults = {
+		animationDuration: 250,
+		linksSelector: '.links a',
+		expandingAreaSelector: '.expanding-container',
+		closeButtonMarkup: '<a href="#" class="close-button">Close</a>',
+		spacerMarkup: '<span class="spacer" aria-hidden="true"/>',
+		elementActiveClass: 'active',
+		elementExpandedClass: 'expanded',
+		onExpandBefore: false,
+		onExpandAfter: false
+	};
+
+	var settings = $.extend({}, defaults, options);
+
+	var isExpanded = false;
+	var activeLink = false;
+	var activeExpandedArea = false;
+	var activeExpandedAreaTop = false;
+	var activeExpandedAreaHeight = false;
+	var lastItemInActiveRow = false;
+	var activeRowChanged = false;
+	var checkExpandedAreaResize = false;
+	var $links = $(settings.linksSelector, context);
+	var $expandingAreas = $(settings.expandingAreaSelector, context);
+	var $closeButton = $(settings.closeButtonMarkup);
+	var $spacer = $(settings.spacerMarkup);
+	var $secondarySpacer = $spacer.clone();
+
+	/**
+	 * Scroll a section of the page into view, using animation.
+	 */
+	var scrollSectionIntoView = function (top, bottom, duration, callback) {
+		var animate;
+		var scroll = 0;
+		var distance = calculatePageScrollDistance(top, bottom);
+		var windowScrollDistance = $(window).scrollTop();
+		var timeLeft;
+
+		// Set default duration.
+		duration = (typeof duration === 'undefined') ? settings.animationDuration : duration;
+		timeLeft = duration;
+
+		var start = new Date().getTime();
+		var last = start;
+		var tick = function() {
+			timeLeft = Math.max(duration - (new Date() - start), 0);
+
+			var x = (timeLeft === 0 || distance === 0) ? 0 : ((new Date() - last) / timeLeft * distance);
+			var diff = (distance > 0 ? Math.min(x, distance) : Math.max(x, distance));
+			distance = distance - diff;
+			scroll += diff;
+			window.scrollTo(0, windowScrollDistance + scroll);
+
+			last = new Date().getTime();
+
+			if (last - start <= duration) {
+				animate = (window.requestAnimationFrame && requestAnimationFrame(tick)) || setTimeout(tick, 16);
+			}
+			else {
+				if (typeof callback === 'function') {
+					callback();
+				}
+			}
+		};
+
+		tick();
+	};
+
+	// Process the links.
+	$links.each(function () {
+		var $this = $(this);
+		var targetId = $this.attr('href').match(/#([^\?]+)/)[1];
+		var target = document.getElementById(targetId);
+
+		if (target) {
+			$this.click(function (event) {
+				var clickedLink = this;
+				var scrollTargetOffset;
+				var closeButtonAnimationDelay;
+
+				event.preventDefault();
+
+				// Is this link already expanded?
+				if (isExpanded && activeLink === clickedLink) {
+					// Close it.
+					$closeButton.click();
+				}
+				// Otherwise, expand it.
+				else {
+					$links.removeClass(settings.elementActiveClass).filter($this).addClass(settings.elementActiveClass).parent('li').each(function () {
+						var lastSibling = getLastSiblingInRow(this);
+						activeRowChanged = lastSibling !== lastItemInActiveRow;
+						if (activeRowChanged) {
+							lastItemInActiveRow = lastSibling;
+						}
+						// If we are changing rows, replace spacer with secondary spacer.
+						if (isExpanded && activeRowChanged) {
+							$secondarySpacer.height($spacer.height());
+							$spacer.height(0).replaceWith($secondarySpacer);
+						}
+						$(lastItemInActiveRow).after($spacer);
+					});
+					if (isExpanded && activeRowChanged) {
+						$secondarySpacer.animate({height: 0}, settings.animationDuration, function () {
+							$(this).detach();
+						});
+						$closeButton.removeClass(settings.elementActiveClass).hide();
+					}
+					scrollTargetOffset = ($secondarySpacer.position().top < $spacer.position().top ? $secondarySpacer.height() : 0);
+					activeExpandedAreaTop = ($spacer.position().top - scrollTargetOffset);
+					$expandingAreas.removeClass(settings.elementExpandedClass).hide().filter(target).each(function () {
+							var $this = $(this);
+							var autoHeight = $this.height();
+							var autoOuterHeight = $this.outerHeight();
+							var initialHeight = (isExpanded && activeExpandedAreaHeight && (activeRowChanged === false)) ? activeExpandedAreaHeight : 0;
+
+							stopExpandedAreaMonitor();
+
+							$spacer.animate({height: autoHeight + 'px'}, settings.animationDuration);
+
+							$this.css({
+								height: initialHeight + 'px',
+								position: 'absolute',
+								left: 0,
+								top: $spacer.position().top + 'px'
+							}).show(0, function () {
+								// Callback.
+								if (typeof settings.onExpandBefore === 'function') {
+									settings.onExpandBefore.call(this);
+								}
+							}).animate({
+								height: autoHeight + 'px',
+								top: activeExpandedAreaTop + 'px'
+							}, settings.animationDuration, function () {
+								$this.css({height: 'auto'}).addClass(settings.elementExpandedClass);
+
+								// Set a timer to monitor changes to expanded area’s height.
+								activeExpandedAreaHeight = $this.height();
+								checkExpandedAreaResize = setInterval(function () {
+									var activeExpandedAreaNewHeight = $this.height();
+									if (activeExpandedAreaNewHeight !== activeExpandedAreaHeight) {
+										activeExpandedAreaHeight = activeExpandedAreaNewHeight;
+										syncExpandedAreaWithSpacer();
+									}
+								}, 1000);
+
+								// Callback.
+								if (typeof settings.onExpandAfter === 'function') {
+									settings.onExpandAfter.call(this);
+								}
+							});
+
+							// Scroll the page to bring the active link and preview into view.
+							var scrollTargetTop = $(clickedLink).offset().top - scrollTargetOffset;
+							var scrollTargetBottom = $this.offset().top + autoOuterHeight + 20 - scrollTargetOffset;
+							scrollSectionIntoView(scrollTargetTop, scrollTargetBottom);
+						});
+
+					// Activate close button.
+					closeButtonAnimationDelay = (isExpanded && activeRowChanged && ($this.parent().index() > $(activeLink).parent().index())) ? settings.animationDuration : (settings.animationDuration / 4);
+					$closeButton.css({
+							position: 'absolute',
+							right: 0,
+							top: activeExpandedAreaTop + 'px'
+						}).delay(closeButtonAnimationDelay).fadeIn(settings.animationDuration, function () {
+							$(this).addClass(settings.elementActiveClass);
+						});
+
+					// Set global variables.
+					activeLink = this;
+					activeExpandedArea = target;
+					isExpanded = true;
+				}
+			});
+		}
+	});
+
+	// Process the close button.
+	$closeButton.appendTo(context).hide().click(function (event) {
+		var $activeLink = $(activeLink);
+		var activeLinkTopOffset = $activeLink.offset().top;
+		var activeLinkBottomOffset = activeLinkTopOffset + $activeLink.outerHeight();
+
+		event.preventDefault();
+
+		// DOM manipulation and animations.
+		$links.removeClass(settings.elementActiveClass);
+		$expandingAreas.slideUp(settings.animationDuration).removeClass(settings.elementExpandedClass);
+		$closeButton.removeClass('active').hide();
+		$spacer.animate({height: 0}, settings.animationDuration, function () {
+			$spacer.detach();
+		});
+
+		// Scroll the page to bring the active link into view.
+		scrollSectionIntoView(activeLinkTopOffset, activeLinkBottomOffset);
+
+		stopExpandedAreaMonitor();
+
+		// Reset global variables.
+		isExpanded = false;
+		activeLink = false;
+		activeExpandedArea = false;
+	});
+
+	/**
+	 * Stop monitoring size of expanded area.
+	 */
+	var stopExpandedAreaMonitor = function () {
+		if (checkExpandedAreaResize) {
+			clearInterval(checkExpandedAreaResize);
+		}
+	};
+
+	/**
+	 * Match preview and spacer in height and position.
+	 */
+	var syncExpandedAreaWithSpacer = function () {
+		if (activeExpandedArea && isExpanded) {
+			$spacer.height($(activeExpandedArea).height());
+			activeExpandedAreaTop = $spacer.position().top;
+			$closeButton.add(activeExpandedArea).css({top: activeExpandedAreaTop + 'px'});
+		}
+	};
+
+	/**
+	 * Place spacer in proper position within grid.
+	 */
+	var positionSpacer = function () {
+		var lastSibling;
+		if (activeLink && lastItemInActiveRow && isExpanded) {
+			// Remove spacer.
+			$spacer.detach();
+			lastSibling = getLastSiblingInRow($(activeLink).parent()[0]);
+			// Reposition spacer, if necessary.
+			if (lastItemInActiveRow !== lastSibling) {
+				console.log(lastSibling);
+				lastItemInActiveRow = lastSibling;
+			}
+			// Restore spacer.
+			$(lastItemInActiveRow).after($spacer);
+		}
+	};
+
+	// React to window resize.
+	$(window).resize(function () {
+		if (isExpanded) {
+			positionSpacer();
+			syncExpandedAreaWithSpacer();
+		}
+	});
+};
+
+// Create the jQuery plugin.
+$.fn.expandingGrid = function (options) {
+	return this.each(function () {
+		expandingGrid(this, options);
+	});
+};
+
+})(jQuery, window, document);
+
+$(document).ready(function () {
+	$('.expanding-grid').expandingGrid();
+});
+</script>
+</body>
+</html>
