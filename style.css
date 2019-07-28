@@ -409,3 +409,9 @@ img {
   -webkit-animation: stripe-slide 12s infinite linear forwards;
   animation: stripe-slide 12s infinite linear forwards;
 }
+
+tr,
+th {
+  padding: 0 2em 0.4em 0em;
+  border-bottom: 1px solid black;
+}
