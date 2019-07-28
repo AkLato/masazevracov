@@ -1,16 +1,10 @@
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 239, 191, 1) 0%,
-    rgba(255, 247, 231, 1) 40%,
-    rgba(255, 255, 254, 1) 100%,
-    rgba(255, 239, 191, 1) 0%
-  );
   font-family: "Roboto Slab", serif;
   font-size: 100%;
   color: #000;
   overflow: hidden;
   margin: auto;
+  max-width: 1080px;
 }
 
 p {
@@ -19,6 +13,17 @@ p {
   font-size: 1em;
   line-height: 1.3;
   text-align: justify;
+}
+
+.kontakt-button {
+  padding-left: 16.6%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .kontakt-button-fold {
+    display: block;
+    padding: 0 0 1em 1em;
+  }
 }
 
 .grid-title {
@@ -60,7 +65,7 @@ ol {
 }
 
 .logo {
-  max-height: 16vh;
+  max-height: 12vh;
   margin: auto;
 }
 
@@ -105,6 +110,10 @@ img {
 /* Hide the images by default */
 .mySlides {
   display: none;
+}
+
+.carousel {
+  padding-top: 1em;
 }
 
 /* Next & previous buttons */
@@ -200,15 +209,16 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 .expanding-grid .links > li a:hover {
-  padding: 0.2em;
+  padding: 0.4em;
   transition: all 0.3s ease-in-out;
   background: rgb(255, 255, 255);
-  transform: scale(1.1);
-  font-size: 0.93em;
+  transform: scale(1.2);
+  font-size: 1em;
 }
 .expanding-grid .links > li a.active {
   background: rgb(255, 255, 255);
-  padding: 0.6em;
+  transform: scale(1.1);
+  padding: 1em;
 }
 .expanding-grid .links > li a.active:after {
   border-bottom: 0.375em solid #888;
