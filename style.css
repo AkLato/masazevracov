@@ -197,7 +197,7 @@ img {
 .expanding-grid .links > li a {
   background-color: #fff;
   min-height: auto;
-    padding-bottom:2em;
+  padding-bottom: 2em;
   border-radius: 0 0 2em 0;
   -webkit-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
   -moz-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
@@ -408,16 +408,20 @@ img {
     padding: 0 0 1em 1em;
   }
   .grid-title {
-    font-size: 0.9em;
-    padding: 0 0.4em 0.2em 0.4em;
+    font-size: 1em;
+    padding: 0 0.4em 0.2em 0.5em;
   }
   .card-summary {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .expanding-grid .links > li a {
     background-color: #fff;
     min-height: auto;
-    padding-bottom:2em;
+    padding-bottom: 2em;
+  }
+  .expanding-grid .links > li {
+    padding: 0.7em;
+  }
 }
 
 /* cenik */
