@@ -19,16 +19,16 @@ p {
   padding-left: 16.6%;
 }
 
-@media only screen and (max-width: 1020px) {
-  .kontakt-button-fold {
-    display: block;
-    padding: 0 0 1em 1em;
-  }
-}
-
 .grid-title {
   font-size: 1.2em;
   font-weight: 550;
+  text-align: left;
+  padding-left: 0.7em;
+}
+
+.card-summary {
+  text-align: left;
+  padding: 0 1em 0 1em;
 }
 
 iframe {
@@ -73,10 +73,6 @@ ol {
   border-right: 2px solid grey;
   border-left: 2px solid grey;
   margin-bottom: 1em;
-}
-
-.card-summary {
-  text-align: left;
 }
 
 .more {
@@ -196,9 +192,16 @@ img {
   box-sizing: border-box;
   float: left;
   padding: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1.5em;
 }
 .expanding-grid .links > li a {
+  background-color: #fff;
+  min-height: auto;
+    padding-bottom:2em;
+  border-radius: 0 0 2em 0;
+  -webkit-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
+  -moz-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
+  box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
   color: black;
   display: block;
   line-height: 1;
@@ -209,10 +212,9 @@ img {
   -moz-osx-font-smoothing: grayscale;
 }
 .expanding-grid .links > li a:hover {
-  padding: 0.4em;
   transition: all 0.3s ease-in-out;
   background: rgb(255, 255, 255);
-  transform: scale(1.2);
+  transform: scale(1.15);
   font-size: 1em;
 }
 .expanding-grid .links > li a.active {
@@ -258,7 +260,7 @@ img {
   }
 }
 .expanding-grid .spacer {
-  background-color: rgb(255, 226, 193);
+  background-color: rgb(255, 255, 255);
   clear: both;
   display: block;
   margin: 0 1em;
@@ -297,16 +299,14 @@ img {
   margin-bottom: 1em;
 }
 .expanding-grid .close-button {
-  background: url(/img/close-button.svg) no-repeat scroll 70% 70% transparent;
   display: inline-block;
-  height: 20px;
+  height: 2em;
+  color: #000;
+  text-decoration: underline;
   line-height: 1;
   overflow: hidden;
   padding: 1.5em 2em;
-  text-decoration: none;
-  text-indent: 5em;
   white-space: nowrap;
-  width: 20px;
   will-change: opacity;
   z-index: 5;
   -webkit-font-smoothing: antialiased;
@@ -357,12 +357,12 @@ img {
   cursor: pointer;
   -moz-user-select: text;
   text-decoration: none;
-  padding: 7px 16px 11px;
+  padding: 10px 16px 11px;
   background-color: #fff;
   color: rgb(0, 0, 0);
   border: 2px solid #666;
   border-radius: 14px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .btn:-moz-focus-inner {
   padding: 0;
@@ -377,25 +377,18 @@ img {
   display: block;
   height: 7px;
   width: 100%;
-  background-image: repeating-linear-gradient(
-    45deg,
-    #666,
-    #666 1px,
-    transparent 2px,
-    transparent 5px
-  );
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-top: 1px solid #666;
   position: absolute;
   left: 0;
   bottom: 0;
   background-size: 7px 7px;
 }
 .btn--stripe:hover {
-  background-color: #666;
+  background-color: rgb(117, 192, 253);
   color: #fff;
   border-color: #000;
+  text-decoration: underline;
 }
 .btn--stripe:hover:after {
   background-image: repeating-linear-gradient(
@@ -405,11 +398,29 @@ img {
     transparent 2px,
     transparent 5px
   );
-  border-top: 1px solid #000;
   -webkit-animation: stripe-slide 12s infinite linear forwards;
   animation: stripe-slide 12s infinite linear forwards;
 }
 
+@media only screen and (max-width: 1020px) {
+  .kontakt-button-fold {
+    display: block;
+    padding: 0 0 1em 1em;
+  }
+  .grid-title {
+    font-size: 0.9em;
+    padding: 0 0.4em 0.2em 0.4em;
+  }
+  .card-summary {
+    font-size: 0.8em;
+  }
+  .expanding-grid .links > li a {
+    background-color: #fff;
+    min-height: auto;
+    padding-bottom:2em;
+}
+
+/* cenik */
 tr,
 th {
   padding: 0 2em 0.4em 0em;
