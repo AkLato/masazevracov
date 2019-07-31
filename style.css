@@ -28,7 +28,6 @@ p {
 
 .card-summary {
   text-align: left;
-  padding: 0 1em 0 1em;
 }
 
 iframe {
@@ -196,12 +195,11 @@ img {
 }
 .expanding-grid .links > li a {
   background-color: #fff;
-  min-height: auto;
-  padding-bottom: 2em;
+  min-height: 16em;
   border-radius: 0 0 2em 0;
-  -webkit-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
-  -moz-box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
-  box-shadow: 2px 3px 13px -7px rgba(31, 31, 31, 0.44);
+  -webkit-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
+  box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
   color: black;
   display: block;
   line-height: 1;
@@ -214,7 +212,7 @@ img {
 .expanding-grid .links > li a:hover {
   transition: all 0.3s ease-in-out;
   background: rgb(255, 255, 255);
-  transform: scale(1.15);
+  transform: scale(1.1);
   font-size: 1em;
 }
 .expanding-grid .links > li a.active {
@@ -402,6 +400,74 @@ img {
   animation: stripe-slide 12s infinite linear forwards;
 }
 
+/* card overlay */
+
+.content {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+}
+
+.content .content-overlay {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay {
+  opacity: 1;
+}
+
+.content-details {
+  position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.content:hover .content-details {
+  top: 5em;
+  left: 50%;
+  padding-top: 4em;
+  opacity: 0.85;
+  background-color: #fff;
+  height: 80%;
+  width: 100.1%;
+}
+.content:hover .content-details p {
+  text-align: left;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+.fadeIn-top {
+  top: 20%;
+}
+/* cenik */
+tr,
+th {
+  padding: 0 2em 0.4em 0em;
+  border-bottom: 1px solid black;
+}
+
 @media only screen and (max-width: 1020px) {
   .kontakt-button-fold {
     display: block;
@@ -411,22 +477,24 @@ img {
     font-size: 1em;
     padding: 0 0.4em 0.2em 0.5em;
   }
-  .card-summary {
+  .content-text {
     font-size: 0.9em;
   }
   .expanding-grid .links > li a {
     background-color: #fff;
-    min-height: auto;
-    padding-bottom: 2em;
+    min-height: 12em;
+    padding-bottom: 1em;
   }
   .expanding-grid .links > li {
     padding: 0.7em;
   }
-}
-
-/* cenik */
-tr,
-th {
-  padding: 0 2em 0.4em 0em;
-  border-bottom: 1px solid black;
+  .content:hover .content-details {
+    top: 2.3em;
+    padding: 5em 0.5em 0.2em 0.5em;
+    height: 100%;
+  }
+  .content:hover .content-details p {
+    text-align: left;
+    font-size: 0.8em;
+  }
 }
