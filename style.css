@@ -4,7 +4,12 @@ body {
   color: #000;
   overflow: hidden;
   margin: auto;
-  max-width: 1080px;
+  background: rgb(255, 206, 238);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 232, 206, 0.4) 0%,
+    rgba(255, 255, 254, 1) 80%
+  );
 }
 
 p {
@@ -16,7 +21,7 @@ p {
 }
 
 .kontakt-button {
-  padding-left: 16.6%;
+  padding-left: 26.5%;
 }
 
 .grid-title {
@@ -39,7 +44,7 @@ nav {
   width: 100%;
   padding: 0.5em;
   margin: 0 0 2em 0;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0);
   background-size: contain;
 }
 
@@ -195,7 +200,7 @@ img {
 }
 .expanding-grid .links > li a {
   background-color: #fff;
-  min-height: 16em;
+  min-height: 17.6em;
   border-radius: 0 0 2em 0;
   -webkit-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
@@ -209,6 +214,7 @@ img {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 .expanding-grid .links > li a:hover {
   transition: all 0.3s ease-in-out;
   background: rgb(255, 255, 255);
@@ -279,6 +285,7 @@ img {
   clear: both;
   min-height: 4em;
   overflow: hidden;
+  margin-top: 0.5em;
   padding: 2em;
   padding-bottom: 1em;
   width: 100%;
@@ -350,7 +357,7 @@ img {
   overflow: visible;
   background: transparent;
   font: inherit;
-  font-size: 1.3em;
+  font-size: 1.1em;
   line-height: normal;
   cursor: pointer;
   -moz-user-select: text;
@@ -430,7 +437,7 @@ img {
   padding-left: 1em;
   padding-right: 1em;
   width: 100%;
-  top: 50%;
+  top: 8em;
   left: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
@@ -442,12 +449,12 @@ img {
 }
 
 .content:hover .content-details {
-  top: 5em;
+  top: 8em;
   left: 50%;
-  padding-top: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   opacity: 0.85;
   background-color: #fff;
-  height: 80%;
   width: 100.1%;
 }
 .content:hover .content-details p {
@@ -458,9 +465,6 @@ img {
   top: 80%;
 }
 
-.fadeIn-top {
-  top: 20%;
-}
 /* cenik */
 tr,
 th {
@@ -468,10 +472,10 @@ th {
   border-bottom: 1px solid black;
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1024px) {
   .kontakt-button-fold {
     display: block;
-    padding: 0 0 1em 1em;
+    padding: 0 0 1em 6em;
   }
   .grid-title {
     font-size: 1em;
@@ -482,19 +486,70 @@ th {
   }
   .expanding-grid .links > li a {
     background-color: #fff;
-    min-height: 12em;
+    min-height: 13.5em;
     padding-bottom: 1em;
   }
   .expanding-grid .links > li {
     padding: 0.7em;
   }
   .content:hover .content-details {
-    top: 2.3em;
-    padding: 5em 0.5em 0.2em 0.5em;
-    height: 100%;
+    top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
   .content:hover .content-details p {
     text-align: left;
     font-size: 0.8em;
+  }
+  .btn {
+    font-size: 1em;
+    padding: 0.6em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .kontakt-button-fold {
+    display: block;
+    padding: 0 0 1em 2em;
+  }
+  .expanding-grid .links > li a {
+    min-height: 14em;
+    padding-bottom: 1em;
+  }
+  .content:hover .content-details {
+    top: 5em;
+  }
+  .expanding-grid .hentry {
+    margin-bottom: 1em;
+  }
+  .kontakt-small {
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .expanding-grid .links > li a {
+    background-color: #fff;
+    min-height: 13em;
+  }
+  .expanding-grid .links {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0.1em;
+    list-style-type: none;
+  }
+  .expanding-grid .links > li {
+    box-sizing: border-box;
+    float: left;
+    padding: 0.1em;
+    padding-bottom: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .expanding-grid .links > li a {
+    background-color: #fff;
+    min-height: 11.3em;
   }
 }
