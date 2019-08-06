@@ -4,12 +4,6 @@ body {
   color: #000;
   overflow: hidden;
   margin: auto;
-  background: rgb(255, 206, 238);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 232, 206, 0.4) 0%,
-    rgba(255, 255, 254, 1) 80%
-  );
 }
 
 p {
@@ -196,11 +190,10 @@ img {
   box-sizing: border-box;
   float: left;
   padding: 1em;
-  padding-bottom: 1.5em;
+  padding-bottom: 3em;
 }
 .expanding-grid .links > li a {
   background-color: #fff;
-  min-height: 17.6em;
   border-radius: 0 0 2em 0;
   -webkit-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
   -moz-box-shadow: 0px 4px 13px -4px rgba(0, 0, 0, 0.37);
@@ -213,6 +206,9 @@ img {
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.content {
+  min-height: 18em;
 }
 
 .expanding-grid .links > li a:hover {
@@ -486,8 +482,7 @@ th {
   }
   .expanding-grid .links > li a {
     background-color: #fff;
-    min-height: 13.5em;
-    padding-bottom: 1em;
+    min-height: 14em;
   }
   .expanding-grid .links > li {
     padding: 0.7em;
@@ -513,8 +508,7 @@ th {
     padding: 0 0 1em 2em;
   }
   .expanding-grid .links > li a {
-    min-height: 14em;
-    padding-bottom: 1em;
+    /* min-height: 14em; */
   }
   .content:hover .content-details {
     top: 5em;
