@@ -313,6 +313,7 @@ th {
   margin: 1em;
   margin-bottom: 0.5em;
   text-decoration: none;
+  border-radius: 0.2em;
 }
 .phone:hover {
   background: -webkit-gradient(
@@ -362,7 +363,7 @@ th {
   font-weight: bold;
   padding: 6px 12px;
   margin: 0.5em 0em auto 1em;
-
+  border-radius: 0.2em;
   text-decoration: none;
 }
 .facebook:hover {
@@ -415,6 +416,7 @@ th {
   font-weight: bold;
   text-decoration: none;
   text-shadow: 0px 1px 0px #854629;
+  border-radius: 0.2em;
 }
 .mail:hover {
   background: -webkit-gradient(
