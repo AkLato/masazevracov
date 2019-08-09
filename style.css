@@ -105,7 +105,7 @@ img {
   opacity: 0.9;
   background-color: #fff;
   border-radius: 0.5em;
-  padding: 1em;
+  padding: 0.7em;
 }
 
 .bottomLeftSlide {
@@ -117,7 +117,7 @@ img {
   opacity: 0.9;
   background-color: #fff;
   border-radius: 0.5em;
-  padding: 1em;
+  padding: 0.7em;
 }
 
 /* Hide the images by default */
