@@ -18,7 +18,7 @@
   <div class="container">
       <div class="topBg">
   <!-- Navigace -->
-  <nav class="navbar nav level is-size-5" role="navigation" aria-label="main navigation" style='background-color: rgba(255, 255, 255, 0)'>
+  <!-- <nav class="navbar nav level is-size-5" role="navigation" aria-label="main navigation" style='background-color: rgba(255, 255, 255, 0)'>
   
     <div class="level-left">
       <p class="level-item">Masáže Jana Rajsiglová</p>
@@ -28,12 +28,9 @@
       <a href="#kontakt"><p class="level-item has-text-black">Kontakt</p></a>
       <a href="cenik.html"><p class="level-item has-text-black">Ceník</p></a>
     </div>
-  </nav>
+  </nav> -->
 
   <img class='logo' src="img/back2.svg">
-    <a class='kontakt-button kontakt-button-fold' href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA"><button class="btn btn--stripe"><span><i class="fab fa-facebook" style='color:3B5998;'></i></span> Facebook</button></a>
-    <a class='kontakt-button-fold'href="tel:731-731-721"><button class="btn btn--stripe"><span><i class="fas fa-phone" style='color:#47d147;'></i></span> +(420) 731 731 721</button></a>
-    <a class='kontakt-button-fold'href="mailto:masaze.janara@centrum.cz"><button class="btn btn--stripe"><span><i class="fas fa-envelope"style='color:#d64f43;'></i></span>  masaze.janara@centrum.cz</button></a>
   </div> 
   
   
@@ -42,16 +39,56 @@
   <div class="column is-10 is-offset-1">
     <!-- Slideshow container -->
     <div class="slideshow-container">
+      <nav class="navbar nav level is-size-5" role="navigation" aria-label="main navigation" style='background-color: rgba(255, 255, 255, 0)'>
+        <div class="level-left">
+          <p class="level-item">Masáže Jana Rajsiglová</p>
+        </div>
+        <div class="level-right">
+          <a href="#nabidka"><p class="level-item has-text-black">Nabídka</p></a>
+          <a href="#kontakt"><p class="level-item has-text-black">Kontakt</p></a>
+          <a href="cenik.html"><p class="level-item has-text-black">Ceník</p></a>
+        </div>
+      </nav>
     <!-- Full-width images with number -->
-    <div class="mySlides fade">
-        <img class='carousel' src="img/slide1.jpg" style="width:100%">
-    </div>
-    <div class="mySlides fade">
-        <img class='carousel' src="img/slide2.jpg" style="width:100%;">
-    </div>
-    <div class="mySlides fade">
-        <img class='carousel' src="img/slide3.jpg" style="width:100%">
-    </div>
+      <div class="mySlides fade contains">
+          <img class='carousel' src="img/slide2.jpg" style="width:100%">
+          <div class="top-right is-size-5">Objednejte se na masáž:
+            <br>
+            <div class="buttonCenter">
+              <button class='phone' onclick="location.href='tel:731-731-721'">+(420) 731 731 721</button>
+              <div class="buttonFlex">
+              <button class='facebook' onclick="location.href='https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA'">facebook</button>
+              <button class='mail' onclick="location.href='mailto:masaze.janara@centrum.cz'">mail</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="mySlides fade">
+          <img class='carousel' src="img/slide1.jpg" style="width:100%;">
+          <div class="bottomLeftSlide  is-size-5">Objednejte se na masáž:
+              <br>
+              <div class="buttonCenter">
+                <button class='phone' href="tel:+420-731-731-721">+(420) 731 731 721</button>
+                <div class="buttonFlex">
+                <button class='facebook' href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA">facebook</button>
+                <button class='mail' href="mailto:masaze.janara@centrum.cz">mail</button>
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="mySlides fade">
+          <img class='carousel' src="img/slide3.jpg" style="width:100%">
+          <div class="bottomLeftSlide  is-size-5">Objednejte se na masáž:
+              <br>
+              <div class="buttonCenter">
+                <button class='phone' href="tel:731-731-721">+(420) 731 731 721</button>
+                <div class="buttonFlex">
+                <button class='facebook' href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA">facebook</button>
+                <button class='mail' href="mailto:masaze.janara@centrum.cz">mail</button>
+                </div>
+              </div>
+            </div>
+      </div>
 
     <!-- Next and previous buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -63,7 +100,7 @@
   <div class="column is-10 is-offset-1 info">
     <p> Jmenuji se Jana Rajsiglová a poskytuji masérské, rekondiční a regenerační služby. Masážní salon provozuji s cílem ulevit klientům nejen od fyzických bolestí, ale i od psychických problémů, které jsou s tím spjaty. Tělu i duši uleví i jediná masáž. Při pravidelné péči pocítíte přiliv energie a chuť do života. O jednotlivých masážích v nabídce se více dozvíte níže.</p>
   </div>
-  <br>
+  
 
   <!-- Infopart expanding grid -->
   <div class="expanding-grid">
@@ -575,7 +612,7 @@
       </article>
     </div>
   </div>
-  <br>
+  
 
   <div class="bottomBg">
   <div class="column is-10 is-offset-1 more">
@@ -597,6 +634,7 @@
           <p>Jana Rajsiglová</p>
           <p>Písečná 1032, Vracov</p>
           <p>731 731 721</p>
+          <p>masaze.janara@centrum.cz</p>
           <br>
           <p>Provoz dle objednávek.</p>
           <p>Vždy po předchozí telefonické domluvě.</p>
