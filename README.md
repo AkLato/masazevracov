@@ -1,1 +1,1 @@
-# masazevracov
+Info stránka pro masážní salón. Styling v Bulmě. Nahoře je carousel, jednotlivé služby jsou pak v responsivním gridu s expandujícím obsahem. Obrázky jsou kompresované a mají lazyload. Stránka je kompletně responzivní. Hosting na Netlify, který je spojen s repository na GitHubu.
