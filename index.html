@@ -1,241 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" integrity="sha256-BoISUaKecfj9T2A0lmfFTRY7Fte8ix1HFEx/UEJoPu8=" crossorigin="anonymous"></script> 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous" /> 
-  <link rel="stylesheet" href="style.css">
-  <title>Masáže Vracov - Jana Rajsiglová</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" integrity="sha256-BoISUaKecfj9T2A0lmfFTRY7Fte8ix1HFEx/UEJoPu8=" crossorigin="anonymous"></script> 
+    <link rel="icon" href="img/favi.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css" integrity="sha256-ujE/ZUB6CMZmyJSgQjXGCF4sRRneOimQplBVLu8OU5w=" crossorigin="anonymous" /> 
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Masáže Vracov - Jana Rajsiglová</title>
+  </head>
 
 <body>
-
   <div class="container">
-  <img class='logo' src="img/back2.svg">
-   
-      
-  <!-- Slides -->
-  <div class="column is-10 is-offset-1">
+    <img class="navbar__logo" src="img/back2.svg" />
     <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <nav class="navbar nav level is-size-5" role="navigation" aria-label="main navigation" style='background-color: rgba(255, 255, 255, 0)'>
-        <div class="level-left">
-          <p class="level-item">Masáže Jana Rajsiglová</p>
-        </div>
-        <div class="level-right">
-          <a href="#nabidka"><p class="level-item has-text-black">Nabídka</p></a>
-          <a href="#kontakt"><p class="level-item has-text-black">Kontakt</p></a>
-          <a href="cenik.html"><p class="level-item has-text-black">Ceník</p></a>
-        </div>
-      </nav>
-    <!-- Full-width images with number -->
-      <div class="mySlides fade contains">
-          <img class='carousel' src="img/slide2.jpg" style="width:100%">
-          <div class="top-right is-size-5">Objednejte se na masáž:
-            <br>
-            <div class="buttonCenter">
-              <button class='phone' onclick="location.href='tel:731-731-721'">+(420) 731 731 721</button>
-              <div class="buttonFlex">
-              <button class='facebook' onclick="location.href='https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA'">facebook</button>
-              </div>
-            </div>
+    <div class="column is-10 is-offset-1">
+      <!-- Navbar -->
+      <div class="slideshow">
+        <nav
+          class="navbar nav level is-size-5"
+          role="navigation"
+          aria-label="main navigation"
+        >
+          <div class="level-left">
+            <p class="level-item">Masáže Jana Rajsiglová</p>
           </div>
-      </div>
-      <div class="mySlides fade">
-          <img class='carousel' src="img/slide1.jpg" style="width:100%;">
-          <div class="bottomLeftSlide  is-size-5">Objednejte se na masáž:
-              <br>
-              <div class="buttonCenter">
-                <button class='phone' href="tel:+420-731-731-721">+(420) 731 731 721</button>
-                <div class="buttonFlex">
-                <button class='facebook' href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA">facebook</button>
-                </div>
-              </div>
-            </div>
-      </div>
-      <div class="mySlides fade">
-          <img class='carousel' src="img/slide3.jpg" style="width:100%">
-          <div class="bottomLeftSlide  is-size-5">Objednejte se na masáž:
-              <br>
-              <div class="buttonCenter">
-                <button class='phone' href="tel:731-731-721">+(420) 731 731 721</button>
-                <div class="buttonFlex">
-                <button class='facebook' href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA">facebook</button>
-                </div>
-              </div>
-            </div>
-      </div>
+          <div class="level-right">
+            <a href="#nabidka" class="navbar__odkaz">
+              <p class="level-item has-text-black">Nabídka</p>
+            </a>
+            <a href="#kontakt" class="navbar__odkaz">
+              <p class="level-item has-text-black">Kontakt</p>
+            </a>
+            <a href="cenik.html" class="navbar__odkaz">
+              <p class="level-item has-text-black">Ceník</p>
+            </a>
+          </div>
+        </nav>
+        <!-- Full-width images with number -->
+        <div class="carousel__slide fade">
+          <img class="carousel" src="img/slide2.jpg" />
+          <div class="carousel__card--topRight is-size-5">
+            Objednejte se:
+            <button
+              class="cardButton cardButton--facebook"
+              onclick="location.href='https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA'"
+            >
+              facebook
+            </button>
+            <button
+              class="cardButton cardButton--phone"
+              onclick="location.href='tel:731-731-721'"
+            >
+              +(420) 731 731 721
+            </button>
+          </div>
+        </div>
+        <div class="carousel__slide fade">
+          <img class="carousel" src="img/slide1.jpg" />
+          <div class="carousel__cardTitle carousel__card--bottomLeft is-size-5">
+            Objednejte se:
+            <button
+              class="cardButton cardButton--facebook"
+              href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA"
+            >
+              facebook
+            </button>
+            <button
+              class="cardButton cardButton--phone"
+              href="tel:+420-731-731-721"
+            >
+              +(420) 731 731 721
+            </button>
+          </div>
+        </div>
+        <div class="carousel__slide fade">
+          <img class="carousel" src="img/slide3.jpg" />
+          <div class="carousel__card--bottomLeft is-size-5">
+            Objednejte se:
+            <button
+              class="cardButton cardButton--facebook"
+              href="https://www.facebook.com/MasazeVracov/?fb_dtsg_ag=Adz3ASmdSHlPotmQ4_JQW9UBB1M7m6bqNn6uSDWMt4_9xg%3AAdwDwhkRJwCcDrI_7SFk2xZ18lXq6Ycd4XvNFjFFV9AQUA"
+            >
+              facebook
+            </button>
+            <button class="cardButton cardButton--phone" href="tel:731-731-721">
+              +(420) 731 731 721
+            </button>
+          </div>
+        </div>
 
-    <!-- Next and previous buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- slide buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="carousel__introduction">
+          <p>
+            Jmenuji se Jana Rajsiglová a poskytuji masérské, rekondiční a
+            regenerační služby. Masážní salon provozuji s cílem ulevit klientům
+            nejen od fyzických bolestí, ale i od psychických problémů, které
+            jsou s tím spjaty. Tělu i duši uleví i jediná masáž. Při pravidelné
+            péči pocítíte přiliv energie a chuť do života. O jednotlivých
+            masážích v nabídce se více dozvíte níže.
+          </p>
+        </div>
+      </div>
     </div>
-  </div> 
 
-  <!-- Info -->
-  <div class="column is-10 is-offset-1 info">
-    <p> Jmenuji se Jana Rajsiglová a poskytuji masérské, rekondiční a regenerační služby. Masážní salon provozuji s cílem ulevit klientům nejen od fyzických bolestí, ale i od psychických problémů, které jsou s tím spjaty. Tělu i duši uleví i jediná masáž. Při pravidelné péči pocítíte přiliv energie a chuť do života. O jednotlivých masážích v nabídce se více dozvíte níže.</p>
-  </div>
   
-
   <!-- Infopart expanding grid -->
   <div class="expanding-grid">
     <ul id='nabidka' class="links">
-      <li class='grid'>
+      <li>
         <a href="#section1">
-          <div class="content-overlay">
-            <div class="contains content">
-              <img class="lazyload blur" data-src="img/dorn1.jpg">
-              <div class="bottom-left">Dornova metoda</div> 
-                <div class="content-details fadeIn-top">
-                  <p class='content-text'>Navrácení kloubů a obratlí pohybem do správné polohy.</p>
+          <div class="card__container">
+              <div class="card__front">
+                <img class="lazyload blur dorn__titleImg" data-src="img/dorn1.jpg">
+                <div class="card__title">
+                  Dornova metoda
                 </div>
               </div>
-          </div>
+              <div class='card__back'>
+                <p>Navrácení kloubů a obratlí pohybem do správné polohy.</p>
+            </div>
+            </div>
         </a>
       </li>
       <li>
         <a href="#section2">
-          <div class="content-overlay">
-            <div class="contains content">
-              <img class="lazyload blur" data-src="img/breuss.jpg">
-              <div class="bottom-left">Breussova masáž</div>
-              <div class="content-details fadeIn-top">
-                <p class='content-text'>Jemná péče pro uvolnění svalů v oblasti páteře za pomocí třezalkového olejíčku.</p>
+          <div class="card__container">
+              <div class="card__front">
+                <img class="lazyload blur" data-src="img/breuss.jpg">
+                <div class="card__title">
+                  Breussova masáž
+                </div>
               </div>
+              <div class='card__back'>
+                <p>Jemná péče pro uvolnění svalů v oblasti páteře za pomocí třezalkového olejíčku.</p>
             </div>
-          </div>
+            </div>
         </a>
       </li>
       <li>
         <a href="#section3">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/bank.jpg">
-                <div class='bottom-left'>Baňkování</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Podpora krevního oběhu v problematických oblastech.</p>
+                <div class='card__title'>
+                  Baňkování
                 </div>
-            </div>
+              </div>
+                <div class='card__back'>
+                    <p>Podpora krevního oběhu v problematických oblastech.</p>
+                </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section4">
-          <div class="content-overlay">
-            <div class="contains content">
-                <img class="lazyload blur" data-src="img/lymf.jpg">
-                <div class='bottom-left'>Lymfodrenáž</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Jemná masážní technika odstraňující škodliviny z těla.</p>
-                </div>
+          <div class="card__container">
+            <div class="card__front">
+              <img class="lazyload blur" data-src="img/lymf.jpg">
+              <div class='card__title'>
+                Lymfodrenáž
+              </div>
+            </div>
+            <div class='card__back'>
+                <p>Jemná masážní technika odstraňující škodliviny z těla.</p>
             </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section5">
-          <div class="content-overlay">
-            <div class="contains content">
-                <img class="lazyload blur" data-src="img/kine.jpg">
-                <div class='bottom-left'>Kineziotaping</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Speciální lepící páska pro uvolnění a aktivní léčení svalů.</p>
-                </div>
+          <div class="card__container">
+            <div class="card__front">
+              <img class="lazyload blur" data-src="img/kine.jpg">
+              <div class='card__title'>
+                Kineziotaping
+              </div>
+            </div>
+
+            <div class='card__back'>
+                <p>Speciální lepící páska pro uvolnění a aktivní léčení svalů.</p>
             </div>
         </div>
         </a>
       </li>
       <li>
         <a href="#section6">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+            <div class="card__front">
                 <img class="lazyload blur" data-src="img/lymt.jpg">
-                <div class='bottom-left'>Lymfotaping</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Lepení pružných pásek na podporu lymfatického systému.</p>
+                <div class='card__title'>
+                  Lymfotaping
                 </div>
+              </div>
+
+            <div class='card__back'>
+                <p>Lepení pružných pásek na podporu lymfatického systému.</p>
             </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section7">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/celu.jpg">
-                <div class='bottom-left'>Masáž proti celulitidě</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Odstranění příznaků celulitidy pomocí ozónového zábalu.</p>
+                <div class='card__title'>
+                  Masáž proti celulitidě
                 </div>
-            </div>
+              </div>
+
+              <div class='card__back'>
+                  <p>Odstranění příznaků celulitidy pomocí ozónového zábalu.</p>
+              </div>
           </div>   
         </a>
       </li>
       <li>
         <a href="#section8">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/indi.jpg">
-                <div class='bottom-left'>Indická masáž hlavy</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Léčivé ošetření hlavy odstraňující každodenní stres, bolesti hlavy, napětí v ramenou a šíji.</p>
+                <div class='card__title'>
+                  Indická masáž hlavy
                 </div>
-            </div>
+              </div>
+
+              <div class='card__back'>
+                  <p>Léčivé ošetření hlavy odstraňující každodenní stres, bolesti hlavy, napětí v ramenou a šíji.</p>
+              </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section9">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/lava.jpg">
-                <div class='bottom-left'>Masáž lávovými kameny</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Přikládání horkých kamenů pro celkovou relaxaci a regeneraci organismu.</p>
+                <div class='card__title'>
+                  Masáž lávovými kameny
                 </div>
+              </div>
+
+              <div class='card__back'>
+                  <p>Přikládání horkých kamenů pro celkovou relaxaci a regeneraci organismu.</p>
+              </div>
             </div>
-          </div>
         </a>
       </li>
       <li>
         <a href="#section10">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/trig.jpg">
-                <div class='bottom-left'>Trigger points</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Spouštěcí body - uvolnění bolestivých míst ve svalech.</p>
+                <div class='card__title'>
+                  Trigger points
                 </div>
-            </div>
+              </div>
+
+              <div class='card__back'>
+                  <p>Spouštěcí body - uvolnění bolestivých míst ve svalech.</p>
+              </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section11">
-          <div class="content-overlay">
-            <div class="contains content">
+          <div class="card__container">
+              <div class="card__front">
                 <img class="lazyload blur" data-src="img/dark.jpg">
-                <div class='bottom-left'>Dárkové poukazy</div>
-                <div class="content-details fadeIn-top">
-                    <p class='content-text'>Potěšte své blízké příjemným zážitkem.</p>
+                <div class='card__title'>
+                  Dárkové poukazy
                 </div>
-            </div>
+              </div>
+
+              <div class='card__back'>
+                  <p>Potěšte své blízké příjemným zážitkem.</p>
+              </div>
           </div>
         </a>
       </li>
       <li>
         <a href="#section12">
-          <div class="content-overlay">
-            <div class="contains content">
-                <img class="lazyload blur" data-src="img/lymf2.jpg">
-                <div class='bottom-left'>Kodex a kontraindikace</div>
-            </div>
+          <div class="card__container">
+                <img class="lazyload blur card__backLess" data-src="img/lymf2.jpg">
+                <div class='card__title card__backLess'>
+                  Kodex a kontraindikace
+                </div>
           </div>
         </a>
       </li>
@@ -257,16 +314,16 @@
         <br><br>
         <div class="columns">
           <div class="column">
-              <img class="lazyload" data-src="img/dorn1.jpg">
-              <img class="lazyload" data-src="img/dorn4.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn1.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn4.jpg">
           </div>
           <div class="column">
-              <img class="lazyload" data-src="img/dorn2.jpg">
-              <img class="lazyload" data-src="img/dorn5.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn2.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn5.jpg">
           </div>
           <div class="column">
-              <img class="lazyload" data-src="img/dorn3.jpg">
-              <img class="lazyload" data-src="img/dorn6.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn3.jpg">
+              <img class="lazyload dorn__img" data-src="img/dorn6.jpg">
           </div>
         </div>
       </article>
@@ -596,26 +653,24 @@
   
 
   <div class="bottomBg">
-  <div class="column is-10 is-offset-1 more">
-    <p class='is-size-4'>Trápí Vás více problémů?</p>
-    <br>
+  <div class="column is-10 is-offset-1 moreProblems">
+    <h3>Trápí Vás více problémů?</h3>
     <p> Klienti přichází s problémy, které nemusí zapadat do uvedené nabídky. Zde zvolíme řešení v podobě kombinovaných procedur. Po seznámení se s Vašimi potížemi sestavím masáž, která Vám nejlépe uleví od bolestí.</p>
   </div>
   <br>
 
 
   <div class="columns" id='kontakt'>
-      <div class="column is-6">
+      <div class="column is-5 is-offset-1">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2619.177866747604!2d17.20929645167434!3d48.969138479196864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4713249d74f3ba13%3A0xa000c4fb47c44500!2zUMOtc2XEjW7DoSAxMDMyLCA2OTYgNDIgVnJhY292!5e0!3m2!1scs!2scz!4v1536594726670" width="100%" frameborder="0" allowfullscreen></iframe>            
       </div>
-      <div class="column is-6 kontakt-small">
+      <div class="column is-5 kontakt-small">
         <div class="column kontakt is-offset-1">
-          <p class="is-size-4 has-text-weight-semibold line">Kontakt</p>
-          <hr>
+          <h3>Kontakt</h3>
           <p>Jana Rajsiglová</p>
           <p>Písečná 1032, Vracov</p>
-          <p>731 731 721</p>
-          <p>masaze.janara@centrum.cz</p>
+          <p><a href="tel:731-731-721">731 731 721</a></p>
+          <p><a href="mailto:masaze.janara@centrum.cz">masaze.janara@centrum.cz</a></p>
           <br>
           <p>Provoz dle objednávek.</p>
           <p>Vždy po předchozí telefonické domluvě.</p>
@@ -626,12 +681,11 @@
         </div> 
       </div>
   </div>
-  <br>
-</div>
+
 </div>
 
 <!-- Slideshow -->
-  <script>
+<script>
     var slideIndex = 1;
     showSlides(slideIndex);
     
@@ -647,7 +701,7 @@
     
     function showSlides(n) {
       var i;
-      var slides = document.getElementsByClassName("mySlides");
+      var slides = document.getElementsByClassName("carousel__slide");
       if (n > slides.length) {slideIndex = 1} 
       if (n < 1) {slideIndex = slides.length}
       for (i = 0; i < slides.length; i++) {
@@ -656,9 +710,8 @@
       
       slides[slideIndex-1].style.display = "block"; 
     }
-  </script>
   
-  <script>
+ 
   /**
  * jQuery Expanding Grid plugin.
  *
@@ -720,7 +773,7 @@ var calculatePageScrollDistance = function (top, bottom) {
  */
 var expandingGrid = function (context, options) {
 	var defaults = {
-		animationDuration: 250,
+		animationDuration: 500,
 		linksSelector: '.links a',
 		expandingAreaSelector: '.expanding-container',
 		closeButtonMarkup: '<a href="#" class="close-button">Zavřít</a>',
@@ -843,7 +896,8 @@ var expandingGrid = function (context, options) {
 								height: initialHeight + 'px',
 								position: 'absolute',
 								left: 0,
-								top: $spacer.position().top + 'px'
+								top: $spacer.position().top + 'px',
+                padding: 32 + 'px',
 							}).show(0, function () {
 								// Callback.
 								if (typeof settings.onExpandBefore === 'function') {
@@ -983,6 +1037,59 @@ $.fn.expandingGrid = function (options) {
 $(document).ready(function () {
 	$('.expanding-grid').expandingGrid();
 });
+
+
+// lazyload 
+document.addEventListener("DOMContentLoaded", function() {
+  var lazyloadImages;    
+
+  if ("IntersectionObserver" in window) {
+    lazyloadImages = document.querySelectorAll(".lazyload");
+    var imageObserver = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var image = entry.target;
+          image.src = image.dataset.src;
+          image.classList.remove("lazyload");
+          imageObserver.unobserve(image);
+        }
+      });
+    });
+
+    lazyloadImages.forEach(function(image) {
+      imageObserver.observe(image);
+    });
+  } else {  
+    var lazyloadThrottleTimeout;
+    lazyloadImages = document.querySelectorAll(".lazyload");
+    
+    function lazyload () {
+      if(lazyloadThrottleTimeout) {
+        clearTimeout(lazyloadThrottleTimeout);
+      }    
+
+      lazyloadThrottleTimeout = setTimeout(function() {
+        var scrollTop = window.pageYOffset;
+        lazyloadImages.forEach(function(img) {
+            if(img.offsetTop < (window.innerHeight + scrollTop)) {
+              img.src = img.dataset.src;
+              img.classList.remove('lazy');
+            }
+        });
+        if(lazyloadImages.length == 0) { 
+          document.removeEventListener("scroll", lazyload);
+          window.removeEventListener("resize", lazyload);
+          window.removeEventListener("orientationChange", lazyload);
+        }
+      }, 20);
+    }
+
+    document.addEventListener("scroll", lazyload);
+    window.addEventListener("resize", lazyload);
+    window.addEventListener("orientationChange", lazyload);
+  }
+})
 </script>
+
 </body>
 </html>
