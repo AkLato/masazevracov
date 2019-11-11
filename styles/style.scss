@@ -217,13 +217,13 @@ a {
 .expanding-grid {
   position: relative;
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
 
   & .links {
     display: block;
     margin: 0;
     overflow: hidden;
-    padding: 0.7em 0;
+    padding-bottom: 1.5rem;
 
     & > li {
       box-sizing: border-box;
@@ -353,8 +353,8 @@ a {
 @media only screen and (max-width: 30em) {
   .expanding-grid .links > li {
     width: 50%;
-    transform: scale(0.7);
-    margin: 0 1.7rem -3.5rem -1.7rem;
+    transform: scale(0.6);
+    margin: 0 1.7rem -4.5rem -1.7rem;
   }
   .expanding-grid .links > li:nth-of-type(2n + 1) {
     clear: left;
