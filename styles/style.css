@@ -253,6 +253,7 @@ a {
 .expanding-grid {
   position: relative;
   width: 100%;
+  padding: 1rem;
 }
 
 .expanding-grid .links {
@@ -532,6 +533,7 @@ th {
 iframe {
   height: 100%;
   min-height: 400px;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
