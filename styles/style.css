@@ -1,3 +1,9 @@
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #fff9f0;
+  display: none;
+}
+
 body {
   width: 100vw;
   height: 100%;
