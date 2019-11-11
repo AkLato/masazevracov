@@ -16,6 +16,8 @@ body {
   margin: auto;
   background-color: #fff9f0;
   overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 h3 {
@@ -509,6 +511,10 @@ a {
 .card__backLess:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
+}
+
+.moreProblems {
+  margin-top: 1rem;
 }
 
 ol {
