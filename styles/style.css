@@ -402,8 +402,15 @@ a {
   .expanding-grid .links > li:nth-of-type(2n + 1) {
     clear: left;
   }
+  .expanded {
+    margin-top: 2rem;
+  }
   .card__container {
     width: 250px;
+  }
+  .card__back p {
+    font-size: 0.8rem;
+    width: 85%;
   }
   .card__backLess img {
     -webkit-transition: -webkit-transform 1s;

@@ -356,8 +356,17 @@ a {
     clear: left;
   }
 
+  .expanded {
+    margin-top: 2rem;
+  }
+
   .card__container {
     width: 250px;
+  }
+
+  .card__back p {
+    font-size: 0.8rem;
+    width: 85%;
   }
 
   .card__backLess img {
