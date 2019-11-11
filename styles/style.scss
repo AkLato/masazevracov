@@ -1,6 +1,6 @@
-// ::-webkit-scrollbar-track {
-//   background-color: #fff9f0;
-// }
+::-webkit-scrollbar-track {
+  background-color: #fff9f0;
+}
 
 ::-webkit-scrollbar {
   width: 12px;
@@ -19,6 +19,7 @@ body {
   color: rgb(34, 34, 34);
   margin: auto;
   background-color: #fff9f0;
+  overflow: hidden;
 }
 
 h3 {
